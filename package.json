@@ -1,7 +1,7 @@
 {
-  "name": "hexo-tag-youtube-fallback",
+  "name": "hexo-tag-bilitube",
   "version": "0.0.1",
-  "description": "When youtube is unavaiable, fallback to alternative video website.",
+  "description": "When youtube is unavaiable, fallback to bilibili.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/njzjz/hexo-tag-youtube-fallback#readme",
   "dependencies": {
-    "hexo-tag-injector": "^0.0.1"
+    "hexo-tag-injector": "^0.0.1",
+    "hexo-util": "^2.4.0"
   }
 }
