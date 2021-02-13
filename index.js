@@ -19,6 +19,7 @@ hexo.extend.tag.register('bilitube', function (args) {
 
 
 injector.register('body_end', js({
-    href: cdn_url('src/youtubefallback.min.js'),
+    src: cdn_url('src/youtubefallback.min.js'),
+    'defer': true,
     class: 'pjax',
 }));
