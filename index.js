@@ -10,6 +10,7 @@ hexo.extend.tag.register('bilitube', function (args) {
     return injector.mark(htmlTag(
         'div',
         { class: "bilitube video-container", "data-youtube": args[0], "data-bvid": args[1] },
+        '',
     ));
 });
 

@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/njzjz/hexo-tag-youtube-fallback.git"
+    "url": "git+https://github.com/njzjz/hexo-tag-bilitube.git"
   },
   "author": "Jinzhe Zeng",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/njzjz/hexo-tag-youtube-fallback/issues"
+    "url": "https://github.com/njzjz/hexo-tag-bilitube/issues"
   },
-  "homepage": "https://github.com/njzjz/hexo-tag-youtube-fallback#readme",
+  "homepage": "https://github.com/njzjz/hexo-tag-bilitube#readme",
   "dependencies": {
     "bilitube": "^0.0.2",
     "hexo-tag-injector": "^0.0.1",
