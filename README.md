@@ -2,5 +2,5 @@
 
 ## Usage
 ```md
-{% bilitube youtube_id bvid [loading_icon_class] %}
+{% bilitube youtube_id bvid %}
 ```
