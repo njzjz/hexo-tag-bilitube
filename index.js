@@ -3,7 +3,7 @@ const { name, version } = require('bilitube/package.json');
 const { htmlTag } = require('hexo-util');
 const Injector = require("hexo-tag-injector");
 const injector = new Injector(hexo);
-const { npm_url } = require("jsdelive_url");
+const { npm_url } = require("jsdelivr_url");
 
 hexo.extend.tag.register('bilitube', function (args) {
     /** {% bilitube youtube_id bvid [loading_icon] %} */
