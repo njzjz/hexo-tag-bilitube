@@ -17,7 +17,7 @@ hexo.extend.tag.register('bilitube', function (args) {
 
 
 injector.register('body_end', js({
-    src: npm_url(name, version, 'src/bilitube.min.js'),
+    src: npm_url(name, version, 'dist/bilitube.min.js'),
     'defer': true,
     class: 'pjax',
 }));
