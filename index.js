@@ -1,11 +1,9 @@
 const js = hexo.extend.helper.get('js').bind(hexo);
-const { name, version } = require('./package.json');
+const { name, version } = require('bilitube/package.json');
 const { htmlTag } = require('hexo-util');
 const Injector = require("hexo-tag-injector");
 const injector = new Injector(hexo);
-const cdn_url = function (path) {
-    return `https://cdn.jsdelivr.net/npm/${name}@${version}/${path}`;
-}
+const { npm_url } = require("jsdelive_url");
 
 hexo.extend.tag.register('bilitube', function (args) {
     /** {% bilitube youtube_id bvid [loading_icon] %} */
@@ -19,7 +17,7 @@ hexo.extend.tag.register('bilitube', function (args) {
 
 
 injector.register('body_end', js({
-    src: cdn_url('src/bilitube.min.js'),
+    src: npm_url(name, version, 'src/bilitube.min.js'),
     'defer': true,
     class: 'pjax',
 }));

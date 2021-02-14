@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+bilitube@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/bilitube/-/bilitube-0.0.2.tgz#2ec71a39ea050246d476ba1a2009900b651a16ba"
+  integrity sha512-9gUePnXXOLZYqNmDR3JcdzoKzIpT4nQu26+JQaxHLtpLdXfT6M3EJcofY/6NWHByQF9eSIdRGn/rsAP4ax5puw==
+
 bluebird@^3.5.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -131,6 +136,11 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
+
+jsdelivr_url@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/jsdelivr_url/-/jsdelivr_url-0.0.1.tgz#3a9c0440575ec092d88b403091b8b68d2c0df755"
+  integrity sha512-HjjyhWU8kG1Q1JsFf6D7wNF0REqUA8CMiBHHl0w5RW5uLVgdLK5UxzW5rwmorP8vxLNiNo3rjr+E4cpFb5gI/g==
 
 lower-case@^2.0.2:
   version "2.0.2"
