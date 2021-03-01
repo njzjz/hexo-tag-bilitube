@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-bilitube",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "When youtube is unavaiable, fallback to bilibili.",
   "main": "index.js",
   "scripts": {
