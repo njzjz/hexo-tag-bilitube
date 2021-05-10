@@ -62,13 +62,6 @@ domelementtype@^2.0.1, domelementtype@^2.2.0:
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
   integrity sha512-DtBMo82pv1dFtUmHyr48beiuq792Sxohr+8Hm9zoxklYPfa6n0Z3Byjj2IV7bmr2IyqClnqEQhfgHJJ5QF0R5A==
 
-domhandler@^3.0.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-3.3.0.tgz#6db7ea46e4617eb15cf875df68b2b8524ce0037a"
-  integrity sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==
-  dependencies:
-    domelementtype "^2.0.1"
-
 domhandler@^4.0.0, domhandler@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.2.0.tgz#f9768a5f034be60a89a27c2e4d0f74eba0d8b059"
@@ -76,7 +69,7 @@ domhandler@^4.0.0, domhandler@^4.2.0:
   dependencies:
     domelementtype "^2.2.0"
 
-domutils@^2.0.0:
+domutils@^2.5.2:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.6.0.tgz#2e15c04185d43fb16ae7057cb76433c6edb938b7"
   integrity sha512-y0BezHuy4MDYxh6OvolXYsH+1EMGmFbwv5FKW7ovwMG6zTPWqNPq3WF9ayZssFq+UlKdffGLbOEaghNdaOm1WA==
@@ -110,33 +103,32 @@ hexo-tag-injector@^0.1.0:
     escape-string-regexp "^4.0.0"
 
 hexo-util@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.4.0.tgz#f5c0099a0a1718b3ad27061e5e4d1fb9eb7f2b41"
-  integrity sha512-IPQvAyn0cznYMU2gskMiZ6LZEvN7wHNusrJoYxrir4f7S7POpZeDTBswiko9R1qqd+/hu07wUYZdm4ceTTCEaA==
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.5.0.tgz#de5635341116ba2563a789a0ebceb55a875221ad"
+  integrity sha512-l0zkqcg2524KPO84HQe0JROpPlCM/dEnCJaJrZ1qsq+3+/YxhDa0zxiGtUVY1dtrWzOK/V11Zj+UEklhGP8Jeg==
   dependencies:
     bluebird "^3.5.2"
     camel-case "^4.0.0"
     cross-spawn "^7.0.0"
     deepmerge "^4.2.2"
-    highlight.js "^10.0.0"
-    htmlparser2 "^4.0.0"
+    highlight.js "^10.7.1"
+    htmlparser2 "^6.0.0"
     prismjs "^1.17.1"
     strip-indent "^3.0.0"
-    striptags "^3.1.1"
 
-highlight.js@^10.0.0:
+highlight.js@^10.7.1:
   version "10.7.2"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.2.tgz#89319b861edc66c48854ed1e6da21ea89f847360"
   integrity sha512-oFLl873u4usRM9K63j4ME9u3etNF0PLiJhSQ8rdfuL51Wn3zkD6drf9ZW0dOzjnZI22YYG24z30JcmfCZjMgYg==
 
-htmlparser2@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-4.1.0.tgz#9a4ef161f2e4625ebf7dfbe6c0a2f52d18a59e78"
-  integrity sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q==
+htmlparser2@^6.0.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-6.1.0.tgz#c4d762b6c3371a05dbe65e94ae43a9f845fb8fb7"
+  integrity sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A==
   dependencies:
     domelementtype "^2.0.1"
-    domhandler "^3.0.0"
-    domutils "^2.0.0"
+    domhandler "^4.0.0"
+    domutils "^2.5.2"
     entities "^2.0.0"
 
 isexe@^2.0.0:
@@ -212,11 +204,6 @@ strip-indent@^3.0.0:
   integrity sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==
   dependencies:
     min-indent "^1.0.0"
-
-striptags@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/striptags/-/striptags-3.1.1.tgz#c8c3e7fdd6fb4bb3a32a3b752e5b5e3e38093ebd"
-  integrity sha1-yMPn/db7S7OjKjt1LltePjgJPr0=
 
 tiny-emitter@^2.0.0:
   version "2.1.0"
