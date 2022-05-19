@@ -120,11 +120,6 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-jsdelivr_url@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/jsdelivr_url/-/jsdelivr_url-0.0.1.tgz#3a9c0440575ec092d88b403091b8b68d2c0df755"
-  integrity sha512-HjjyhWU8kG1Q1JsFf6D7wNF0REqUA8CMiBHHl0w5RW5uLVgdLK5UxzW5rwmorP8vxLNiNo3rjr+E4cpFb5gI/g==
-
 lower-case@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
@@ -186,6 +181,11 @@ tslib@^2.0.3:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+
+unpkg_url@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/unpkg_url/-/unpkg_url-0.0.1.tgz#24ee5c07ee3651bad7bad62ad14470cc50b05a77"
+  integrity sha512-7S29fCCgE1FNR9UGlXzrE5FKDRinhL48TMZXBb+xjbQZY+b0LwRTxDFyfWnwtTj6wWoz39kIegxD9+ORh2AJ4g==
 
 which@^2.0.1:
   version "2.0.2"
