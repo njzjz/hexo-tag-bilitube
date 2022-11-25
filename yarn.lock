@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-bilitube@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/bilitube/-/bilitube-0.0.2.tgz#2ec71a39ea050246d476ba1a2009900b651a16ba"
-  integrity sha512-9gUePnXXOLZYqNmDR3JcdzoKzIpT4nQu26+JQaxHLtpLdXfT6M3EJcofY/6NWHByQF9eSIdRGn/rsAP4ax5puw==
+bilitube@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/bilitube/-/bilitube-0.0.3.tgz#b3113e3fc7c9ef24ee0a340cbc690732dee18415"
+  integrity sha512-LTEoVcBXQ5CXo6Iws/REzGPkH6sGOQQJgAKbcbRwV4tFk2fgyzSDXjCHzzJ145z7+fnIqG1s7vWHslQc4j171w==
 
 bluebird@^3.7.2:
   version "3.7.2"
